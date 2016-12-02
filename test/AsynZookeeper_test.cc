@@ -35,7 +35,7 @@ class Deal : public ZooKeeperEventHandler {
 int main(int argc, char *argv[])
 {
     zoo_set_debug_level(ZOO_LOG_LEVEL_WARN);
-    string host = "119.29.57.93:2181,119.29.111.219:2181,199.29.159.86:2181";
+    string host = "127.0.0.1:2181";
     AsynZookeeper zk;
     bool result;
     result = zk.Init(host, 10000000);

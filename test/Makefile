@@ -13,4 +13,4 @@ GCC=g++
 INCLUDE= -I ../
 
 all:
-	$(GCC) $(OBJECTS) $(TARGET) $(FLAG) $(INCLUDE)
+	$(GCC) $(TARGET) $(OBJECTS) $(FLAG) $(INCLUDE)
